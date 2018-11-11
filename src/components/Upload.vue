@@ -9,7 +9,7 @@
         <h3>Selected Files</h3>
         <div class="text-left bg-grey-light px-4 py-2 mb-2" v-for="(file,k) in fileList" :key="k"  > {{file}} </div>
       </div>
-      <button type="button" class="px-4 py-2 border border-solid border-teal hover:bg-teal text-black shadow font-semibold text-xl">Upload</button>
+      <button type="button" class="px-4 py-2 border border-solid border-teal hover:bg-teal text-black shadow-sm font-semibold text-xl">Upload</button>
       <progress-bar class="mt-6" :progress="progress"></progress-bar>
     </div>
   </div>
